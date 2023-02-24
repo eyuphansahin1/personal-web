@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+margin: 0;
+background: url("wallpaperflare.com_wallpaper.jpg");  
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Lato', sans-serif;
+}
+#cv{
+    
+    width: 31vw;
+    height: 78vh;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(6px);
+
+}
+#resim{
+    margin: auto;
+    background: url(WhatsApp\ Image\ 2023-02-15\ at\ 18.19.09.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    clip-path: circle(50% at 50% 50%);
+    height: 150px;
+    margin-top: 6%;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#insterestedin{
+    margin-top: 50px;
+}
+.box{
+    width: 33.3%;
+    float: left;
+    border-left: 2px solid rgba(255,255,255,0.5);
+}
+#social{
+    margin-top: 30px;
+    margin-left: 11px;
+    color: #181D31;
+    text-align: left;
+}
+
+a:visited {
+    color: #181D31;
+}
+a{
+    color: #181D31;
+}
+#resim h1,h2{
+    color: #181D31
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #89C4E1; */
+    background-color: #2B3467;
+    opacity: 0.2;
+}
